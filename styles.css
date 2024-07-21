@@ -1,0 +1,135 @@
+body {
+    font-family: 'Quicksand', sans-serif; /* Apply Quicksand font to the whole body */
+}
+
+.navbar-pink {
+    background-color: #ffffff;
+    border: 2px solid #ff3366; /* Added border color */
+    border-radius: 20px; /* Added border radius */
+    max-width: 80%; /* Set the maximum width */
+    margin: 0 auto; /* Center the navbar */
+    font-family: 'Quicksand', sans-serif; /* Apply Quicksand font to the navbar */
+}
+
+.navbar-pink .navbar-brand,
+.navbar-pink .nav-link,
+.navbar-pink .navbar-toggler-icon {
+    color: #ff3366;
+}
+
+.navbar-pink .nav-link:hover,
+.navbar-pink .nav-link:focus,
+.navbar-pink .dropdown-item:hover,
+.navbar-pink .dropdown-item:focus {
+    color: #404040;
+}
+
+.navbar-pink .dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #ff3366; /* Added border color */
+    border-radius: 20px;
+}
+
+.navbar-pink .dropdown-item {
+    color: #404040;
+}
+
+.navbar-pink .dropdown-item:hover,
+.navbar-pink .dropdown-item:focus {
+    background-color: #ffffff;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering the article content */
+.article-section {
+    text-align: center;
+    margin: 50px auto; /* Center horizontally and add vertical spacing */
+    max-width: 800px; /* Optional: control the maximum width of the content */
+}
+
+.article-section h2 {
+    margin-bottom: 20px; /* Space between the title and the content */
+}
+
+.article-section p {
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+  /* Custom styles for the image */
+  .article-image {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+  }
+
+  .email-link {
+    color: white;
+    text-decoration: none; /* Optionnel : enlève la soulignement du lien */
+  }
+  
+  .email-link:hover {
+    color: white;
+    text-decoration: none; /* Optionnel : ajoute une soulignement lorsque l'utilisateur survole le lien */
+  }
+
+  /* Centre le contenu de la section #contact */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ajuste la hauteur pour s'assurer que la section occupe toute la hauteur de la fenêtre */
+    padding: 20px;
+    background-color: #f9f9f9; /* Ajoute une couleur de fond pour mieux voir les bordures arrondies */
+  }
+  
+  .form-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+    width: 100%;
+    max-width: 600px; /* Limite la largeur maximale du formulaire */
+    padding: 20px;
+    border-radius: 40px; /* Ajoute les coins arrondis au formulaire */
+    background-color: white; /* Fond blanc pour le formulaire */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+  }
+  
+  .form-control {
+    border: 1px solid #404040 !important;
+    border-radius: 20px; /* Ajoute un bord arrondi aux champs du formulaire */
+  }
+  
+  label {
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 20px; /* Ajoute un bord arrondi aux champs du formulaire */
+  }
+  
+  input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Ajoute un bord arrondi au bouton de soumission */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #575757;
+  }  
